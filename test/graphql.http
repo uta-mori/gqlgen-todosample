@@ -1,0 +1,13 @@
+POST http://localhost:8080
+COntent-Type: application/application/json
+X-REQUEDT-TYPE: GraphQL
+
+query findTodos {
+  todos {
+    text
+    done
+    user {
+      name
+    }
+  }
+}
