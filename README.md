@@ -6,6 +6,8 @@ menu: main
 weight: -7
 ---
 
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
 <!--
 This tutorial will take you through the process of building a GraphQL server with gqlgen that can:
 
